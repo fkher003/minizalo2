@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.DieuKhienClient">
+   <children>
+      <Text layoutX="20.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trực Tuyến" wrappingWidth="75.20000000000005" />
+      <Text layoutX="182.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Đang Trò Chuyện" />
+      <Label fx:id="labelBan" layoutX="406.0" layoutY="6.0" text="Bạn" />
+      <TextArea fx:id="textAreaTrucTuyen" layoutY="32.0" prefHeight="246.0" prefWidth="168.0" />
+      <TextArea fx:id="textAreaNoiDung" layoutX="167.0" layoutY="32.0" prefHeight="232.0" prefWidth="360.0" />
+      <ComboBox fx:id="comboBoxChonNguoiNhan" layoutX="-1.0" layoutY="275.0" prefHeight="31.0" prefWidth="168.0" />
+      <TextField fx:id="textFieldSoanThao" layoutX="168.0" layoutY="259.0" prefHeight="47.0" prefWidth="286.0" />
+      <Button layoutX="454.0" layoutY="259.0" mnemonicParsing="false" onAction="#hanhDongGui" prefHeight="47.0" prefWidth="75.0" text="Button" />
+   </children>
+</AnchorPane>
